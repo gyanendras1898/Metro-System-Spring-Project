@@ -13,11 +13,16 @@ import com.gyan.service.JourneyServiceImpl;
 import com.gyan.service.StationService;
 import com.gyan.service.StationServiceImpl;
 
+import lombok.Setter;
+
 public class MetroPresentationImpl implements MetroPresentation {
 	Scanner sc = new Scanner(System.in);
-	CardService cardService = new CardServiceImpl();
-	JourneyService journeyService = new JourneyServiceImpl();
-	StationService stationService = new StationServiceImpl();
+	@Setter
+	private CardService cardService;
+	@Setter
+	private JourneyService journeyService;
+	@Setter
+	private StationService stationService;
 
 	@Override
 	public void showMenu() {

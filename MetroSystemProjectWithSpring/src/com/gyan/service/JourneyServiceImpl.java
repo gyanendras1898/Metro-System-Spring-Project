@@ -5,9 +5,11 @@ import java.sql.SQLException;
 import com.gyan.persistence.JourneyDao;
 import com.gyan.persistence.JourneyDaoImpl;
 
+import lombok.Setter;
+
 public class JourneyServiceImpl implements JourneyService {
-	
-	private JourneyDao journeyDao = new JourneyDaoImpl();
+	@Setter
+	private JourneyDao journeyDao;
 
 	@Override
 	public boolean swipeIn(int cId, int sId) throws ClassNotFoundException, SQLException {

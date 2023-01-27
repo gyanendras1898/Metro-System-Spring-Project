@@ -2,6 +2,9 @@ package com.gyan.client;
 
 import java.util.Scanner;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 import com.gyan.exceptions.InvalidInputException;
 import com.gyan.presentation.MetroPresentation;
 import com.gyan.presentation.MetroPresentationImpl;
@@ -9,9 +12,13 @@ import com.gyan.presentation.MetroPresentationImpl;
 
 public class MetroProjectClient {
 	
-	private static MetroPresentation metroPresentation=new MetroPresentationImpl();
+	private static MetroPresentation metroPresentation;
 
 	public static void main(String[] args) {
+		
+		ApplicationContext springContainer = new ClassPathXmlApplicationContext("metroSystem.xml");
+		
+		metroPresentation = (MetroPresentation) springContainer.getBean("metroPresentation");
 
 		Scanner sc=new Scanner(System.in);
 		while(true) {

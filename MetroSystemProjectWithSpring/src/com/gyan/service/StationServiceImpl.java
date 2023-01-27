@@ -12,9 +12,11 @@ import com.gyan.beans.Station;
 import com.gyan.persistence.StationDao;
 import com.gyan.persistence.StationDaoImpl;
 
+import lombok.Setter;
+
 public class StationServiceImpl implements StationService {
-	
-	StationDao stationDao = new StationDaoImpl();
+	@Setter
+	StationDao stationDao;
 
 	@Override
 	public List<Station> getStations() throws ClassNotFoundException, SQLException {

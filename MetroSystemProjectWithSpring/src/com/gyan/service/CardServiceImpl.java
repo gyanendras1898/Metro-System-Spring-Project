@@ -7,9 +7,14 @@ import com.gyan.beans.Card;
 import com.gyan.persistence.CardDao;
 import com.gyan.persistence.CardDaoImpl;
 
+import lombok.Setter;
+
 public class CardServiceImpl implements CardService {
 	
-	private CardDao cardDao=new CardDaoImpl();
+	@Setter
+	private CardDao cardDao;
+	
+	
 
 	@Override
 	public boolean registerUser(double balance) throws ClassNotFoundException, SQLException {
