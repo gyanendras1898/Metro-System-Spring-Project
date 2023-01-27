@@ -358,3 +358,72 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 20:09:03.322
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:24:26.045
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:24:26.051
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:24:26.053
+!MESSAGE buffering callback sts4.classpath.BepcayXt MetroSystemProjectWithSpring false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:24:26.055
+!MESSAGE executing callback sts4.classpath.BepcayXt 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:24:26.084
+!MESSAGE executing callback sts4.classpath.BepcayXt SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:24:27.370
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:24:27.373
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:24:27.417
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:24:27.420
+!MESSAGE classpath=22 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:24:27.421
+!MESSAGE buffering callback sts4.classpath.BepcayXt MetroSystemProjectWithSpring false 22
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:24:27.422
+!MESSAGE executing callback sts4.classpath.BepcayXt 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:24:27.430
+!MESSAGE executing callback sts4.classpath.BepcayXt SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:24:28.635
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:24:28.637
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:26:17.311
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:26:17.314
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:26:17.371
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:26:17.376
+!MESSAGE classpath=28 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:26:17.377
+!MESSAGE buffering callback sts4.classpath.BepcayXt MetroSystemProjectWithSpring false 28
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:26:17.377
+!MESSAGE executing callback sts4.classpath.BepcayXt 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:26:17.389
+!MESSAGE executing callback sts4.classpath.BepcayXt SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:26:18.675
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:26:18.677
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=D\:\\Java_Project\\MetroSystemProject\\.git;
-GitRepositoriesView.GitDirectories.relative=MetroSystemProject\\.git;
+GitRepositoriesView.GitDirectories=D\:\\Java_Project\\MetroSystemProject\\.git;D\:\\Java_Project\\.git;
+GitRepositoriesView.GitDirectories.relative=MetroSystemProject\\.git;.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
