@@ -22,5 +22,7 @@
 		<property name="journeyService" ref="journeyService"></property>
 		<property name="stationService" ref="stationService"></property>
 	</bean>
+	
+	
 
 </beans>
