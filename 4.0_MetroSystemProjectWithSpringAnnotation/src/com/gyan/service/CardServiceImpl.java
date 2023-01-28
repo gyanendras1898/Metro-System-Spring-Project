@@ -20,29 +20,29 @@ public class CardServiceImpl implements CardService {
 	
 
 	@Override
-	public int registerUser(double balance) throws ClassNotFoundException, SQLException {
+	public int registerUser(double balance) throws SQLException {
 		return cardDao.addCard(balance);
 	}
 
 	@Override
-	public boolean isCardPresent(int cId) throws ClassNotFoundException, SQLException {
+	public boolean isCardPresent(int cId) throws SQLException {
 		return cardDao.isCardPresent(cId);
 	}
 	
 	@Override
-	public double viewBalance(int cardId)throws ClassNotFoundException, SQLException {
+	public double viewBalance(int cardId)throws SQLException {
 		return cardDao.viewBalance(cardId);
 	}
 
 	@Override
-	public boolean addCardBalance(int cardId, double balance)throws ClassNotFoundException, SQLException {
+	public boolean addCardBalance(int cardId, double balance)throws SQLException {
 		return cardDao.addBalance(cardId,this.viewBalance(cardId)+balance);
 	}
 
 	
 
 	@Override
-	public List<Card> viewCardId()throws ClassNotFoundException, SQLException {
+	public List<Card> viewCardId()throws SQLException {
 		return cardDao.allCard();
 	}
 

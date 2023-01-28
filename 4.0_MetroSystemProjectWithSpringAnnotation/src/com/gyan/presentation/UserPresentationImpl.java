@@ -16,7 +16,6 @@ import lombok.Setter;
 
 @Component
 public class UserPresentationImpl implements UserPresentation {
-	Scanner sc = new Scanner(System.in);
 	
 	@Autowired
 	private CardService cardService;
@@ -25,8 +24,10 @@ public class UserPresentationImpl implements UserPresentation {
 	@Autowired
 	private StationService stationService;
 	
+	Scanner scanner = new Scanner(System.in);
+	
 	@Override
-	public void showUserMenu(int cardId, boolean isJourneyOngoing) throws ClassNotFoundException, SQLException {
+	public void showUserMenu(int cardId, boolean isJourneyOngoing) throws SQLException {
 		System.out.println("1. View Balance");
 		System.out.println("2. Add Balance");
 		if (isJourneyOngoing)
@@ -37,9 +38,9 @@ public class UserPresentationImpl implements UserPresentation {
 	}
 
 	@Override
-	public void userLogin() throws ClassNotFoundException, SQLException {
+	public void userLogin() throws SQLException {
 		System.out.println("Enter Card Id");
-		int cardId = sc.nextInt();
+		int cardId = scanner.nextInt();
 
 		boolean cardPresent = cardService.isCardPresent(cardId);
 
@@ -52,16 +53,15 @@ public class UserPresentationImpl implements UserPresentation {
 			boolean isJourneyOngoing = journeyService.isJourneyOngoing(cardId);
 			this.showUserMenu(cardId, isJourneyOngoing);
 			System.out.println("Enter choice ");
-			choice = sc.nextInt();
+			choice = scanner.nextInt();
 			this.performUserMenu(choice, cardId, isJourneyOngoing);
 		}while(choice != 4);
 		
-
 	}
 
 	@Override
 	public void performUserMenu(int choice, int cardId, boolean isJourneyOngoing)
-			throws ClassNotFoundException, SQLException {
+			throws SQLException {
 		switch (choice) {
 		// view balance
 		case 1:
@@ -72,7 +72,7 @@ public class UserPresentationImpl implements UserPresentation {
 		// add balance
 		case 2:
 			System.out.println("Enter the amount");
-			int amount = sc.nextInt();
+			int amount = scanner.nextInt();
 
 			if (amount <= 0)
 				System.out.println("Enter valid amount");
@@ -104,11 +104,11 @@ public class UserPresentationImpl implements UserPresentation {
 					System.out.println("");
 
 					System.out.println("Enter Source Station Number From Above Stations");
-					int stationId = sc.nextInt();
+					int stationId = scanner.nextInt();
 					int chance = 3;
 					while (chance-- > 0 && (stationId <= 0 || stationId > stations.size())) {
 						System.out.println("Enter valid station number");
-						stationId = sc.nextInt();
+						stationId = scanner.nextInt();
 					}
 					if (chance == 0) {
 						System.out.println("Maximum limit reached, Please login again");
@@ -130,12 +130,12 @@ public class UserPresentationImpl implements UserPresentation {
 				System.out.println("");
 
 				System.out.println("Enter Destination Station Number From Above Stations");
-				int stationId = sc.nextInt();
+				int stationId = scanner.nextInt();
 
 				int chance = 3;
 				while (chance-- > 0 && (stationId <= 0 || stationId > stations.size())) {
 					System.out.println("Enter valid station number");
-					stationId = sc.nextInt();
+					stationId = scanner.nextInt();
 				}
 				if (chance == 0)
 					System.out.println("Maximum limit reached, Please login again");
@@ -162,11 +162,11 @@ public class UserPresentationImpl implements UserPresentation {
 										+ (100 - currBalance) + " rupees");
 								System.out.println();
 
-								amount = sc.nextInt();
+								amount = scanner.nextInt();
 								choice = 3;
 								while (choice-- > 0 && amount < 100 - currBalance) {
 									System.out.println("Enter valid amount");
-									amount = sc.nextInt();
+									amount = scanner.nextInt();
 								}
 								if (choice == 0)
 									System.out.println("Amount not added, Please contact with admin");

@@ -753,3 +753,312 @@ org.eclipse.core.runtime.CoreException: Launch configuration MetroProjectClient 
 2023-01-28 19:21:10,135 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\3.8_MetroSystemProjectWithSpringAutoWire\src\main\resources
 2023-01-28 19:21:10,136 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-01-28 19:21:10,137 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\3.8_MetroSystemProjectWithSpringAutoWire\src\test\resources
+2023-01-28 19:25:32,850 [Worker-58: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MetroSystemProject:MetroSystemProject:0.0.1-SNAPSHOT @ D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\pom.xml.
+2023-01-28 19:25:32,973 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:25:32,974 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:25:32,978 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:25:32,979 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:25:34,380 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:25:34,380 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:25:34,381 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:25:34,382 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:25:42,857 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:25:42,857 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:25:42,859 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:25:42,859 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:26:13,766 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:26:13,767 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:26:13,768 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:26:13,769 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:26:45,379 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:26:45,380 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:26:45,381 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:26:45,382 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:26:49,761 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:26:49,762 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:26:49,763 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:26:49,765 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:27:29,366 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:27:29,367 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:27:29,368 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:27:29,368 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:27:54,435 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:27:54,436 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:27:54,437 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:27:54,438 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:28:40,522 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:28:40,523 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:28:40,524 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:28:40,524 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:29:41,790 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:29:41,791 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:29:41,792 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:29:41,792 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:29:54,525 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:29:54,525 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:29:54,526 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:29:54,526 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:31:24,252 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:31:24,253 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:31:24,253 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:31:24,254 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:31:34,257 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:31:34,257 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:31:34,258 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:31:34,259 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:33:37,178 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:33:37,179 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:33:37,180 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:33:37,180 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:34:00,037 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:34:00,038 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:34:00,039 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:34:00,040 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:34:17,251 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:34:17,254 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:34:17,255 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:34:17,255 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:34:28,884 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:34:28,885 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:34:28,886 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:34:28,887 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:34:35,659 [Worker-49: Launching MetroProjectClient (7)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:34:35,660 [Worker-49: Launching MetroProjectClient (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:34:35,661 [Worker-49: Launching MetroProjectClient (7)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:34:35,662 [Worker-49: Launching MetroProjectClient (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:43:06,821 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:43:06,821 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:43:06,822 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:43:06,824 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:43:44,222 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:43:44,223 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:43:44,224 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:43:44,224 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:44:18,786 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:44:18,786 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:44:18,787 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:44:18,787 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:45:52,142 [Worker-66: Launching MetroProjectClient (7)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:45:52,143 [Worker-66: Launching MetroProjectClient (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:45:52,144 [Worker-66: Launching MetroProjectClient (7)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:45:52,148 [Worker-66: Launching MetroProjectClient (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:46:10,175 [Worker-69: Launching MetroProjectClient (7)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:46:10,178 [Worker-69: Launching MetroProjectClient (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:46:10,179 [Worker-69: Launching MetroProjectClient (7)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:46:10,180 [Worker-69: Launching MetroProjectClient (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:48:09,711 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:48:09,712 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:48:09,713 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:48:09,713 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:51:50,156 [Worker-71: Launching MetroProjectClient (7)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:51:50,157 [Worker-71: Launching MetroProjectClient (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:51:50,160 [Worker-71: Launching MetroProjectClient (7)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:51:50,160 [Worker-71: Launching MetroProjectClient (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:52:48,679 [Worker-72: Launching MetroProjectClient (7)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:52:48,680 [Worker-72: Launching MetroProjectClient (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:52:48,681 [Worker-72: Launching MetroProjectClient (7)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:52:48,681 [Worker-72: Launching MetroProjectClient (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:53:08,233 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:53:08,233 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:53:08,235 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:53:08,238 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 19:57:22,627 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:57:22,628 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 19:57:22,628 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 19:57:22,629 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 20:02:17,270 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:02:17,270 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 20:02:17,271 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:02:17,271 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 20:02:30,755 [Worker-74: Launching MetroProjectClient (7)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:02:30,756 [Worker-74: Launching MetroProjectClient (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 20:02:30,757 [Worker-74: Launching MetroProjectClient (7)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:02:30,758 [Worker-74: Launching MetroProjectClient (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 20:03:36,839 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:03:36,840 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 20:03:36,844 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:03:36,844 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 20:04:45,258 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:04:45,259 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 20:04:45,260 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:04:45,260 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 20:10:02,920 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:10:02,923 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\3.5_MetroSystemProjectWithSpringPandCNameSpace\src\main\resources
+2023-01-28 20:10:02,927 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:10:02,928 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\3.5_MetroSystemProjectWithSpringPandCNameSpace\src\test\resources
+2023-01-28 20:10:28,008 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:10:28,009 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\3.5_MetroSystemProjectWithSpringPandCNameSpace\src\main\resources
+2023-01-28 20:10:28,010 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:10:28,010 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\3.5_MetroSystemProjectWithSpringPandCNameSpace\src\test\resources
+2023-01-28 20:12:29,908 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:12:29,909 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 20:12:29,910 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:12:29,911 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 20:12:52,733 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:12:52,734 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\3.5_MetroSystemProjectWithSpringPandCNameSpace\src\main\resources
+2023-01-28 20:12:52,735 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:12:52,735 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\3.5_MetroSystemProjectWithSpringPandCNameSpace\src\test\resources
+2023-01-28 20:12:59,516 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:12:59,517 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\3.5_MetroSystemProjectWithSpringPandCNameSpace\src\main\resources
+2023-01-28 20:12:59,517 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:12:59,518 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\3.5_MetroSystemProjectWithSpringPandCNameSpace\src\test\resources
+2023-01-28 20:55:11,650 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:55:11,651 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 20:55:11,652 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:55:11,653 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 20:55:22,790 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:55:22,791 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 20:55:22,791 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:55:22,792 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 20:56:33,636 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:56:33,636 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 20:56:33,637 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:56:33,638 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 20:58:49,478 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:58:49,479 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 20:58:49,480 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:58:49,480 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 20:59:13,544 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:59:13,544 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 20:59:13,545 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:59:13,546 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 20:59:23,832 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:59:23,833 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 20:59:23,834 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 20:59:23,834 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:00:24,640 [Worker-93: Launching MetroProjectClient (7)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:00:24,641 [Worker-93: Launching MetroProjectClient (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:00:24,642 [Worker-93: Launching MetroProjectClient (7)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:00:24,642 [Worker-93: Launching MetroProjectClient (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:01:00,459 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:01:00,460 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:01:00,460 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:01:00,461 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:02:10,734 [Worker-91: Launching MetroProjectClient (7)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:02:10,738 [Worker-91: Launching MetroProjectClient (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:02:10,739 [Worker-91: Launching MetroProjectClient (7)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:02:10,740 [Worker-91: Launching MetroProjectClient (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:03:49,777 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:03:49,778 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:03:49,778 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:03:49,779 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:04:17,430 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:04:17,430 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:04:17,431 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:04:17,432 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:04:44,699 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:04:44,700 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:04:44,700 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:04:44,701 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:04:57,616 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:04:57,617 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:04:57,618 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:04:57,618 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:06:10,914 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:06:10,915 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:06:10,915 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:06:10,916 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:07:21,172 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:07:21,173 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:07:21,173 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:07:21,174 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:08:27,782 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:08:27,783 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:08:27,784 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:08:27,787 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:10:11,564 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:10:11,564 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:10:11,567 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:10:11,568 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:10:49,781 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:10:49,782 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:10:49,783 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:10:49,783 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:11:34,826 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:11:34,827 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:11:34,827 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:11:34,828 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:11:48,435 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:11:48,435 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:11:48,436 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:11:48,436 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:12:03,759 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:12:03,759 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:12:03,760 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:12:03,761 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:12:15,415 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:12:15,416 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:12:15,416 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:12:15,417 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:12:34,845 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:12:34,845 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:12:34,846 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:12:34,846 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:12:45,116 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:12:45,117 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:12:45,118 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:12:45,118 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:13:01,892 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:13:01,893 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:13:01,894 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:13:01,894 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:13:11,133 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:13:11,134 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:13:11,134 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:13:11,135 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:13:59,430 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:13:59,430 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:13:59,431 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:13:59,431 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:14:04,763 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:14:04,764 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:14:04,764 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:14:04,765 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:14:16,635 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:14:16,635 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:14:16,636 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:14:16,637 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:14:26,395 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:14:26,396 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:14:26,396 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:14:26,397 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:14:33,975 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:14:33,976 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:14:33,978 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:14:33,978 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:15:23,401 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:15:23,402 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:15:23,403 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:15:23,403 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:15:43,264 [Worker-94: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:15:43,265 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:15:43,265 [Worker-94: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:15:43,266 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:16:00,368 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:16:00,369 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:16:00,369 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:16:00,370 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:16:20,096 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:16:20,097 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:16:20,097 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:16:20,098 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:16:28,759 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:16:28,759 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:16:28,760 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:16:28,760 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:16:34,520 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:16:34,520 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:16:34,521 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:16:34,521 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:16:48,483 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:16:48,483 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:16:48,484 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:16:48,485 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:17:09,497 [Worker-94: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:17:09,497 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:17:09,498 [Worker-94: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:17:09,499 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources
+2023-01-28 21:17:15,531 [Worker-94: Launching MetroProjectClient (7)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:17:15,531 [Worker-94: Launching MetroProjectClient (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\main\resources
+2023-01-28 21:17:15,532 [Worker-94: Launching MetroProjectClient (7)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-28 21:17:15,533 [Worker-94: Launching MetroProjectClient (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_Project\4.0_MetroSystemProjectWithSpringAnnotation\src\test\resources

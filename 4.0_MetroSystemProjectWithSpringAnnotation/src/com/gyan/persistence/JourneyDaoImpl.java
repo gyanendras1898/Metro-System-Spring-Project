@@ -1,7 +1,6 @@
 package com.gyan.persistence;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -12,16 +11,14 @@ import javax.sql.DataSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.gyan.beans.Station;
 
-import lombok.Setter;
 @Repository
 public class JourneyDaoImpl implements JourneyDao {
 	@Autowired
 	private DataSource dataSource;
 
 	@Override
-	public boolean swipeIn(int cId, int sId) throws ClassNotFoundException, SQLException {
+	public boolean swipeIn(int cId, int sId) throws SQLException {
 		Connection connection=dataSource.getConnection();
 		
 		String query = "INSERT INTO journey (card_id,boarding_station,swipe_in_time,destination_station)"
@@ -41,7 +38,7 @@ public class JourneyDaoImpl implements JourneyDao {
 	}
 
 	@Override
-	public boolean swipeOut(int cId, int dId, double fare) throws ClassNotFoundException, SQLException {
+	public boolean swipeOut(int cId, int dId, double fare) throws SQLException {
 		Connection connection=dataSource.getConnection();
 		String query = "Update journey set destination_station = ?, swipe_out_time = now(), fare =?"
 				+ " where card_id=? order by swipe_in_time desc limit 1;";
@@ -60,7 +57,7 @@ public class JourneyDaoImpl implements JourneyDao {
 	}
 
 	@Override
-	public int getSourceStation(int cId) throws ClassNotFoundException, SQLException {
+	public int getSourceStation(int cId) throws SQLException {
 		Connection connection=dataSource.getConnection();
 		String query = "select boarding_station from journey where card_id = ? order by swipe_in_time desc limit 1";
 		
@@ -76,7 +73,7 @@ public class JourneyDaoImpl implements JourneyDao {
 	}
 
 	@Override
-	public double getFare(int cId) throws ClassNotFoundException, SQLException {
+	public double getFare(int cId) throws SQLException {
 		Connection connection=dataSource.getConnection();
 		String query = "select fare from journey where card_id = ? order by swipe_out_time desc limit 1";
 		
@@ -92,7 +89,7 @@ public class JourneyDaoImpl implements JourneyDao {
 	}
 
 	@Override
-	public boolean isJourneyOngoing(int cId) throws ClassNotFoundException, SQLException {
+	public boolean isJourneyOngoing(int cId) throws SQLException {
 		Connection connection=dataSource.getConnection();
 		String query = "select destination_station from journey where card_id = ? order by swipe_in_time desc limit 1";
 		
@@ -110,7 +107,7 @@ public class JourneyDaoImpl implements JourneyDao {
 	}
 
 	@Override
-	public boolean getDuration(int cId) throws ClassNotFoundException, SQLException {
+	public boolean getDuration(int cId) throws SQLException {
 		Connection connection=dataSource.getConnection();
 		String query = "SELECT TIMESTAMPDIFF(second, swipe_in_time, swipe_out_time) from journey where card_id = ? order by swipe_out_time desc limit 1";
 		
