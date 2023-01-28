@@ -39,6 +39,11 @@
 	<bean id="metroPresentation"
 		class="com.gyan.presentation.MetroPresentationImpl">
 		<property name="cardService" ref="cardService"></property>
+	</bean>
+	
+	<bean id="userPresentation"
+		class="com.gyan.presentation.UserPresentaionImpl">
+		<property name="cardService" ref="cardService"></property>
 		<property name="journeyService" ref="journeyService"></property>
 		<property name="stationService" ref="stationService"></property>
 	</bean>
