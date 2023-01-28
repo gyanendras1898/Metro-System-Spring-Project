@@ -9,17 +9,20 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import com.gyan.exceptions.InvalidInputException;
 import com.gyan.presentation.MetroPresentation;
 import com.gyan.presentation.MetroPresentationImpl;
+import com.gyan.presentation.UserPresentation;
 
 
 public class MetroProjectClient {
 	
 	private static MetroPresentation metroPresentation;
+	private static UserPresentation userPresentation;
 
 	public static void main(String[] args) {
 		
 		ApplicationContext springContainer = new ClassPathXmlApplicationContext("metroSystem.xml");
 		
 		metroPresentation = (MetroPresentation) springContainer.getBean("metroPresentation");
+		userPresentation = (UserPresentation) springContainer.getBean("userPresentation");
 
 		Scanner sc=new Scanner(System.in);
 		while(true) {
@@ -28,7 +31,9 @@ public class MetroProjectClient {
 			System.out.println("Enter Choice : ");
 			String choice=sc.next();
 			if((int)choice.charAt(0)-48>=0 && (int)choice.charAt(0)-48<=9) {
-				metroPresentation.performMenu(Integer.parseInt(choice));
+				int choiceInt = Integer.parseInt(choice);
+				if(choiceInt == 2)	userPresentation.userLogin();
+				else metroPresentation.performMenu(choiceInt);
 				System.out.println();
 			}		
 			else
