@@ -10,6 +10,8 @@ import lombok.Setter;
 public class JourneyServiceImpl implements JourneyService {
 	@Setter
 	private JourneyDao journeyDao;
+	@Setter
+	private CardService cardService;
 
 	@Override
 	public boolean swipeIn(int cId, int sId) throws ClassNotFoundException, SQLException {
@@ -18,7 +20,10 @@ public class JourneyServiceImpl implements JourneyService {
 
 	@Override
 	public boolean swipeOut(int cId, int dId) throws ClassNotFoundException, SQLException {
-		return journeyDao.swipeOut(cId, dId, 20);
+		int currSourceStation = getSourceStation(cId);
+		int fare = (Math.abs(currSourceStation - dId)) * 5;
+		cardService.addCardBalance(cId, -fare);
+		return journeyDao.swipeOut(cId, dId, fare);
 	}
 
 	@Override

@@ -4,5 +4,6 @@
     <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
     <fullyQualifiedTypeName name="javax.sql.DataSource"/>
+    <fullyQualifiedTypeName name="com.gyan.service.CardService"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
 </qualifiedTypeNameHistroy>
