@@ -1,4 +1,4 @@
-!SESSION 2023-01-27 20:02:14.454 -----------------------------------------------
+!SESSION 2023-01-28 12:47:17.301 -----------------------------------------------
 eclipse.buildId=4.18.0.I20201202-1800
 java.version=15.0.1
 java.vendor=Oracle Corporation
@@ -6,1462 +6,423 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
-!ENTRY org.eclipse.jface 2 0 2023-01-27 20:03:12.458
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-27 20:03:12.458
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@792a9cb1,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@51fadd20,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-27 20:03:12.458
-!MESSAGE A conflict occurred for ALT+SHIFT+X R:
-Binding(ALT+SHIFT+X R,
-	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
-		Run RAP Application,
-		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@550ce3a9,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+X R,
-	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
-		Run the current selection on a server,
-		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@28878a52,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-27 20:03:12.458
-!MESSAGE A conflict occurred for ALT+SHIFT+D R:
-Binding(ALT+SHIFT+D R,
-	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
-		Debug RAP Application,
-		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@56554e7,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+D R,
-	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
-		Debug the current selection on a server,
-		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2f19ab6,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
+This is a continuation of log file D:\Java_Project\.metadata\.bak_1.log
+Created Time: 2023-01-28 18:14:46.958
 
-!ENTRY org.eclipse.jface.text 2 0 2023-01-27 20:03:16.990
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
-
-!ENTRY org.eclipse.jface.text 2 0 2023-01-27 20:03:16.991
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
-
-!ENTRY org.eclipse.jface.text 2 0 2023-01-27 20:03:21.026
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
-
-!ENTRY org.eclipse.jface.text 2 0 2023-01-27 20:03:21.027
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
-
-!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2023-01-27 20:03:22.448
-!MESSAGE No search provider was registered. Tasks search is not available.
-
-!ENTRY org.eclipse.egit.ui 2 0 2023-01-27 20:03:30.233
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\manav'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.eclipse.egit.core 4 0 2023-01-27 20:04:54.246
-!MESSAGE Connecting Git team provider failed. See log for details.
-!SUBENTRY 1 org.eclipse.egit.core 4 0 2023-01-27 20:04:54.246
-!MESSAGE Error connecting project MetroSystemProject, no Git repositories found
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 20:05:01.708
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 20:05:01.717
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:05:05.047
-!MESSAGE Entering DelegatingStreamConnectionProvider()
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:05:05.048
-!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4b8891cd[org.springframework.tooling.boot.ls:1.33.0.202204250653(id=700)]
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:05:05.065
-!MESSAGE SpringBootLanguageServer exists!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:05:05.315
-!MESSAGE Instantiating ReusableClasspathListenerHandler
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 20:05:05.879
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 20:05:05.883
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:05:12.683
-!MESSAGE Boot LS startup time from start to initialized: 7606ms
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:05:12.797
-!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.OYMXOjbgisBatched = true
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:05:12.800
-!MESSAGE Setting up ClasspathListenerManager
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:05:12.803
-!MESSAGE Scheduling initial event for all projects ...
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:05:12.805
-!MESSAGE Scheduling initial event for all projects DONE
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:05:12.805
-!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.OYMXOjbg => OK
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:05:12.808
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-28 18:14:46.958
 !MESSAGE exists = true open = true => deleted = false
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:05:12.811
-!MESSAGE classpath=5 entries
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-28 18:14:46.960
+!MESSAGE classpath=28 entries
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:05:12.812
-!MESSAGE buffering callback sts4.classpath.OYMXOjbg MetroSystemProject false 5
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-28 18:14:46.962
+!MESSAGE buffering callback sts4.classpath.zuZRljoJ 2.0_MetroSystemProjectWithSpring false 28
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:05:12.813
-!MESSAGE executing callback sts4.classpath.OYMXOjbg 1 batched events
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-28 18:14:46.963
+!MESSAGE executing callback sts4.classpath.zuZRljoJ 1 batched events
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:05:13.268
-!MESSAGE executing callback sts4.classpath.OYMXOjbg SUCCESS [done]
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-28 18:14:46.971
+!MESSAGE executing callback sts4.classpath.zuZRljoJ SUCCESS [done]
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:03.422
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-28 18:14:47.502
+!MESSAGE Launch configuration MetroProjectClient (1) references non-existing project MetroSystemProjectWithSpring.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration MetroProjectClient (1) references non-existing project MetroSystemProjectWithSpring.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1718)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:521)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:409)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2023-01-28 18:14:47.502
+!MESSAGE Launch configuration MetroProjectClient (1) references non-existing project MetroSystemProjectWithSpring.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-28 18:14:47.503
+!MESSAGE Launch configuration MetroProjectClient (1) references non-existing project MetroSystemProjectWithSpring.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration MetroProjectClient (1) references non-existing project MetroSystemProjectWithSpring.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1718)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:521)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:409)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2023-01-28 18:14:47.503
+!MESSAGE Launch configuration MetroProjectClient (1) references non-existing project MetroSystemProjectWithSpring.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-28 18:14:47.513
+!MESSAGE Launch configuration MetroProjectClient (1) references non-existing project MetroSystemProjectWithSpring.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration MetroProjectClient (1) references non-existing project MetroSystemProjectWithSpring.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1718)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2132)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:374)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:257)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:227)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:185)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2023-01-28 18:14:47.513
+!MESSAGE Launch configuration MetroProjectClient (1) references non-existing project MetroSystemProjectWithSpring.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-28 18:14:48.181
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-28 18:14:48.184
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-28 18:14:59.906
 !MESSAGE exists = true open = true => deleted = false
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:03.425
-!MESSAGE classpath=22 entries
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-28 18:14:59.908
+!MESSAGE classpath=19 entries
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:03.427
-!MESSAGE buffering callback sts4.classpath.OYMXOjbg MetroSystemProject false 22
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-28 18:14:59.909
+!MESSAGE buffering callback sts4.classpath.zuZRljoJ 3.0_MetroSystemProjectWithSpringJDBC false 19
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:03.427
-!MESSAGE executing callback sts4.classpath.OYMXOjbg 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:03.468
-!MESSAGE executing callback sts4.classpath.OYMXOjbg SUCCESS [done]
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 20:06:03.828
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 20:06:03.831
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 20:06:07.730
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 20:06:07.732
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:27.200
-!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.OYMXOjbg
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:27.200
-!MESSAGE unsubscribing from classpath changes: sts4.classpath.OYMXOjbg
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:27.200
-!MESSAGE subsribers = {}
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:27.202
-!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.OYMXOjbg => OK
-!SESSION 2023-01-27 20:06:29.305 -----------------------------------------------
-eclipse.buildId=4.18.0.I20201202-1800
-java.version=15.0.1
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
-Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/D:/Java_Project/ -product org.eclipse.epp.package.java.product
-
-!ENTRY org.eclipse.jface 2 0 2023-01-27 20:06:35.986
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-27 20:06:35.986
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@51577fc8,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@753cfae3,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-27 20:06:35.986
-!MESSAGE A conflict occurred for ALT+SHIFT+X R:
-Binding(ALT+SHIFT+X R,
-	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
-		Run RAP Application,
-		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@326320bb,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+X R,
-	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
-		Run the current selection on a server,
-		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@57573880,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-27 20:06:35.986
-!MESSAGE A conflict occurred for ALT+SHIFT+D R:
-Binding(ALT+SHIFT+D R,
-	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
-		Debug RAP Application,
-		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3d94b49d,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+D R,
-	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
-		Debug the current selection on a server,
-		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2fedaa2e,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-
-!ENTRY org.eclipse.jface.text 2 0 2023-01-27 20:06:40.669
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
-
-!ENTRY org.eclipse.jface.text 2 0 2023-01-27 20:06:40.670
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:45.859
-!MESSAGE Entering DelegatingStreamConnectionProvider()
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:45.859
-!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@249f9678[org.springframework.tooling.boot.ls:1.33.0.202204250653(id=700)]
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:45.863
-!MESSAGE SpringBootLanguageServer exists!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:45.916
-!MESSAGE Instantiating ReusableClasspathListenerHandler
-
-!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2023-01-27 20:06:46.410
-!MESSAGE No search provider was registered. Tasks search is not available.
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:51.527
-!MESSAGE Boot LS startup time from start to initialized: 5649ms
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:51.891
-!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BepcayXtisBatched = true
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:51.897
-!MESSAGE Setting up ClasspathListenerManager
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:51.904
-!MESSAGE Scheduling initial event for all projects ...
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:51.905
-!MESSAGE Scheduling initial event for all projects DONE
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:51.907
-!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BepcayXt => OK
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:51.908
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:51.923
-!MESSAGE classpath=22 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:51.926
-!MESSAGE buffering callback sts4.classpath.BepcayXt MetroSystemProject false 22
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:51.927
-!MESSAGE executing callback sts4.classpath.BepcayXt 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:06:52.812
-!MESSAGE executing callback sts4.classpath.BepcayXt SUCCESS [done]
-
-!ENTRY org.eclipse.egit.ui 2 0 2023-01-27 20:06:58.313
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\manav'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:08:58.165
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-28 18:14:59.910
 !MESSAGE exists = false open = true => deleted = true
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:08:58.166
-!MESSAGE buffering callback sts4.classpath.BepcayXt MetroSystemProject true 0
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-28 18:14:59.910
+!MESSAGE buffering callback sts4.classpath.zuZRljoJ MetroSystemProjectWithSpringJDBC true 0
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:08:58.166
-!MESSAGE exists = true open = true => deleted = false
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-28 18:14:59.911
+!MESSAGE executing callback sts4.classpath.zuZRljoJ 2 batched events
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:08:58.169
-!MESSAGE classpath=19 entries
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-28 18:14:59.921
+!MESSAGE executing callback sts4.classpath.zuZRljoJ SUCCESS [done]
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:08:58.171
-!MESSAGE buffering callback sts4.classpath.BepcayXt MetroSystemProjectLombokJDBC false 19
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:08:58.171
-!MESSAGE executing callback sts4.classpath.BepcayXt 2 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:08:58.184
-!MESSAGE executing callback sts4.classpath.BepcayXt SUCCESS [done]
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 20:09:01.879
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 20:09:01.883
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:09:01.965
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:09:01.968
-!MESSAGE classpath=22 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:09:01.970
-!MESSAGE buffering callback sts4.classpath.BepcayXt MetroSystemProjectLombokJDBC false 22
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:09:01.970
-!MESSAGE executing callback sts4.classpath.BepcayXt 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 20:09:03.148
-!MESSAGE executing callback sts4.classpath.BepcayXt SUCCESS [done]
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 20:09:03.318
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 20:09:03.322
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:24:26.045
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:24:26.051
-!MESSAGE classpath=19 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:24:26.053
-!MESSAGE buffering callback sts4.classpath.BepcayXt MetroSystemProjectWithSpring false 19
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:24:26.055
-!MESSAGE executing callback sts4.classpath.BepcayXt 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:24:26.084
-!MESSAGE executing callback sts4.classpath.BepcayXt SUCCESS [done]
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:24:27.370
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:24:27.373
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:24:27.417
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:24:27.420
-!MESSAGE classpath=22 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:24:27.421
-!MESSAGE buffering callback sts4.classpath.BepcayXt MetroSystemProjectWithSpring false 22
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:24:27.422
-!MESSAGE executing callback sts4.classpath.BepcayXt 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:24:27.430
-!MESSAGE executing callback sts4.classpath.BepcayXt SUCCESS [done]
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:24:28.635
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:24:28.637
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:26:17.311
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:26:17.314
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:26:17.371
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:26:17.376
-!MESSAGE classpath=28 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:26:17.377
-!MESSAGE buffering callback sts4.classpath.BepcayXt MetroSystemProjectWithSpring false 28
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:26:17.377
-!MESSAGE executing callback sts4.classpath.BepcayXt 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:26:17.389
-!MESSAGE executing callback sts4.classpath.BepcayXt SUCCESS [done]
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:26:18.675
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:26:18.677
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-01-27 21:27:29.312
-!MESSAGE An internal error occurred during: "Loading namespaces for project 'MetroSystemProjectWithSpring'".
-!STACK 0
-java.lang.NoClassDefFoundError: org/springsource/ide/eclipse/commons/core/util/FileCopyUtils
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.extractIcon(ProjectClasspathNamespaceDefinitionResolver.java:211)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.init(ProjectClasspathNamespaceDefinitionResolver.java:160)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.<init>(ProjectClasspathNamespaceDefinitionResolver.java:77)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache$ResolvlerCacheEntry.<init>(ProjectClasspathNamespaceDefinitionResolverCache.java:115)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache.addResolverToCache(ProjectClasspathNamespaceDefinitionResolverCache.java:62)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache.getResolver(ProjectClasspathNamespaceDefinitionResolverCache.java:97)
-	at org.springframework.ide.eclipse.xml.namespaces.SpringXmlNamespacesPlugin.getNamespaceDefinitionResolver(SpringXmlNamespacesPlugin.java:195)
-	at org.springframework.ide.eclipse.xml.namespaces.ui.XmlUiNamespaceUtils.getNamespaceDefinitions(XmlUiNamespaceUtils.java:213)
-	at org.springframework.ide.eclipse.xml.namespaces.ui.XmlUiNamespaceUtils$1.run(XmlUiNamespaceUtils.java:196)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.lang.ClassNotFoundException: org.springsource.ide.eclipse.commons.core.util.FileCopyUtils cannot be found by org.springframework.ide.eclipse.xml.namespaces_4.12.0.202109130635
-	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:464)
-	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:171)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
-	... 10 more
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-01-27 21:27:29.801
-!MESSAGE An internal error occurred during: "Loading namespaces for project 'MetroSystemProjectWithSpring'".
-!STACK 0
-java.lang.NoClassDefFoundError: org/springsource/ide/eclipse/commons/core/util/FileCopyUtils
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.extractIcon(ProjectClasspathNamespaceDefinitionResolver.java:211)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.init(ProjectClasspathNamespaceDefinitionResolver.java:160)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.<init>(ProjectClasspathNamespaceDefinitionResolver.java:77)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache$ResolvlerCacheEntry.<init>(ProjectClasspathNamespaceDefinitionResolverCache.java:115)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache.addResolverToCache(ProjectClasspathNamespaceDefinitionResolverCache.java:62)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache.getResolver(ProjectClasspathNamespaceDefinitionResolverCache.java:97)
-	at org.springframework.ide.eclipse.xml.namespaces.SpringXmlNamespacesPlugin.getNamespaceDefinitionResolver(SpringXmlNamespacesPlugin.java:195)
-	at org.springframework.ide.eclipse.xml.namespaces.ui.XmlUiNamespaceUtils.getNamespaceDefinitions(XmlUiNamespaceUtils.java:213)
-	at org.springframework.ide.eclipse.xml.namespaces.ui.XmlUiNamespaceUtils$1.run(XmlUiNamespaceUtils.java:196)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-01-27 21:27:30.259
-!MESSAGE An internal error occurred during: "Loading namespaces for project 'MetroSystemProjectWithSpring'".
-!STACK 0
-java.lang.NoClassDefFoundError: org/springsource/ide/eclipse/commons/core/util/FileCopyUtils
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.extractIcon(ProjectClasspathNamespaceDefinitionResolver.java:211)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.init(ProjectClasspathNamespaceDefinitionResolver.java:160)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.<init>(ProjectClasspathNamespaceDefinitionResolver.java:77)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache$ResolvlerCacheEntry.<init>(ProjectClasspathNamespaceDefinitionResolverCache.java:115)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache.addResolverToCache(ProjectClasspathNamespaceDefinitionResolverCache.java:62)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache.getResolver(ProjectClasspathNamespaceDefinitionResolverCache.java:97)
-	at org.springframework.ide.eclipse.xml.namespaces.SpringXmlNamespacesPlugin.getNamespaceDefinitionResolver(SpringXmlNamespacesPlugin.java:195)
-	at org.springframework.ide.eclipse.xml.namespaces.ui.XmlUiNamespaceUtils.getNamespaceDefinitions(XmlUiNamespaceUtils.java:213)
-	at org.springframework.ide.eclipse.xml.namespaces.ui.XmlUiNamespaceUtils$1.run(XmlUiNamespaceUtils.java:196)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-01-27 21:27:30.711
-!MESSAGE An internal error occurred during: "Loading namespaces for project 'MetroSystemProjectWithSpring'".
-!STACK 0
-java.lang.NoClassDefFoundError: org/springsource/ide/eclipse/commons/core/util/FileCopyUtils
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.extractIcon(ProjectClasspathNamespaceDefinitionResolver.java:211)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.init(ProjectClasspathNamespaceDefinitionResolver.java:160)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.<init>(ProjectClasspathNamespaceDefinitionResolver.java:77)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache$ResolvlerCacheEntry.<init>(ProjectClasspathNamespaceDefinitionResolverCache.java:115)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache.addResolverToCache(ProjectClasspathNamespaceDefinitionResolverCache.java:62)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache.getResolver(ProjectClasspathNamespaceDefinitionResolverCache.java:97)
-	at org.springframework.ide.eclipse.xml.namespaces.SpringXmlNamespacesPlugin.getNamespaceDefinitionResolver(SpringXmlNamespacesPlugin.java:195)
-	at org.springframework.ide.eclipse.xml.namespaces.ui.XmlUiNamespaceUtils.getNamespaceDefinitions(XmlUiNamespaceUtils.java:213)
-	at org.springframework.ide.eclipse.xml.namespaces.ui.XmlUiNamespaceUtils$1.run(XmlUiNamespaceUtils.java:196)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-01-27 21:27:31.173
-!MESSAGE An internal error occurred during: "Loading namespaces for project 'MetroSystemProjectWithSpring'".
-!STACK 0
-java.lang.NoClassDefFoundError: org/springsource/ide/eclipse/commons/core/util/FileCopyUtils
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.extractIcon(ProjectClasspathNamespaceDefinitionResolver.java:211)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.init(ProjectClasspathNamespaceDefinitionResolver.java:160)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.<init>(ProjectClasspathNamespaceDefinitionResolver.java:77)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache$ResolvlerCacheEntry.<init>(ProjectClasspathNamespaceDefinitionResolverCache.java:115)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache.addResolverToCache(ProjectClasspathNamespaceDefinitionResolverCache.java:62)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache.getResolver(ProjectClasspathNamespaceDefinitionResolverCache.java:97)
-	at org.springframework.ide.eclipse.xml.namespaces.SpringXmlNamespacesPlugin.getNamespaceDefinitionResolver(SpringXmlNamespacesPlugin.java:195)
-	at org.springframework.ide.eclipse.xml.namespaces.ui.XmlUiNamespaceUtils.getNamespaceDefinitions(XmlUiNamespaceUtils.java:213)
-	at org.springframework.ide.eclipse.xml.namespaces.ui.XmlUiNamespaceUtils$1.run(XmlUiNamespaceUtils.java:196)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-01-27 21:27:31.686
-!MESSAGE An internal error occurred during: "Loading namespaces for project 'MetroSystemProjectWithSpring'".
-!STACK 0
-java.lang.NoClassDefFoundError: org/springsource/ide/eclipse/commons/core/util/FileCopyUtils
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.extractIcon(ProjectClasspathNamespaceDefinitionResolver.java:211)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.init(ProjectClasspathNamespaceDefinitionResolver.java:160)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.<init>(ProjectClasspathNamespaceDefinitionResolver.java:77)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache$ResolvlerCacheEntry.<init>(ProjectClasspathNamespaceDefinitionResolverCache.java:115)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache.addResolverToCache(ProjectClasspathNamespaceDefinitionResolverCache.java:62)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache.getResolver(ProjectClasspathNamespaceDefinitionResolverCache.java:97)
-	at org.springframework.ide.eclipse.xml.namespaces.SpringXmlNamespacesPlugin.getNamespaceDefinitionResolver(SpringXmlNamespacesPlugin.java:195)
-	at org.springframework.ide.eclipse.xml.namespaces.ui.XmlUiNamespaceUtils.getNamespaceDefinitions(XmlUiNamespaceUtils.java:213)
-	at org.springframework.ide.eclipse.xml.namespaces.ui.XmlUiNamespaceUtils$1.run(XmlUiNamespaceUtils.java:196)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-01-27 21:27:32.161
-!MESSAGE An internal error occurred during: "Loading namespaces for project 'MetroSystemProjectWithSpring'".
-!STACK 0
-java.lang.NoClassDefFoundError: org/springsource/ide/eclipse/commons/core/util/FileCopyUtils
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.extractIcon(ProjectClasspathNamespaceDefinitionResolver.java:211)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.init(ProjectClasspathNamespaceDefinitionResolver.java:160)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.<init>(ProjectClasspathNamespaceDefinitionResolver.java:77)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache$ResolvlerCacheEntry.<init>(ProjectClasspathNamespaceDefinitionResolverCache.java:115)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache.addResolverToCache(ProjectClasspathNamespaceDefinitionResolverCache.java:62)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache.getResolver(ProjectClasspathNamespaceDefinitionResolverCache.java:97)
-	at org.springframework.ide.eclipse.xml.namespaces.SpringXmlNamespacesPlugin.getNamespaceDefinitionResolver(SpringXmlNamespacesPlugin.java:195)
-	at org.springframework.ide.eclipse.xml.namespaces.ui.XmlUiNamespaceUtils.getNamespaceDefinitions(XmlUiNamespaceUtils.java:213)
-	at org.springframework.ide.eclipse.xml.namespaces.ui.XmlUiNamespaceUtils$1.run(XmlUiNamespaceUtils.java:196)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-01-27 21:27:32.655
-!MESSAGE An internal error occurred during: "Loading namespaces for project 'MetroSystemProjectWithSpring'".
-!STACK 0
-java.lang.NoClassDefFoundError: org/springsource/ide/eclipse/commons/core/util/FileCopyUtils
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.extractIcon(ProjectClasspathNamespaceDefinitionResolver.java:211)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.init(ProjectClasspathNamespaceDefinitionResolver.java:160)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolver.<init>(ProjectClasspathNamespaceDefinitionResolver.java:77)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache$ResolvlerCacheEntry.<init>(ProjectClasspathNamespaceDefinitionResolverCache.java:115)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache.addResolverToCache(ProjectClasspathNamespaceDefinitionResolverCache.java:62)
-	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathNamespaceDefinitionResolverCache.getResolver(ProjectClasspathNamespaceDefinitionResolverCache.java:97)
-	at org.springframework.ide.eclipse.xml.namespaces.SpringXmlNamespacesPlugin.getNamespaceDefinitionResolver(SpringXmlNamespacesPlugin.java:195)
-	at org.springframework.ide.eclipse.xml.namespaces.ui.XmlUiNamespaceUtils.getNamespaceDefinitions(XmlUiNamespaceUtils.java:213)
-	at org.springframework.ide.eclipse.xml.namespaces.ui.XmlUiNamespaceUtils$1.run(XmlUiNamespaceUtils.java:196)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:28:21.108
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:28:21.110
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.jface.text 2 0 2023-01-27 21:28:29.149
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
-
-!ENTRY org.eclipse.jface.text 2 0 2023-01-27 21:28:29.149
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
-
-!ENTRY org.eclipse.jface.text 2 0 2023-01-27 21:29:49.748
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
-
-!ENTRY org.eclipse.jface.text 2 0 2023-01-27 21:29:49.748
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:29:54.859
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:29:54.862
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:34:10.457
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:34:10.459
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.jface.text 2 0 2023-01-27 21:34:57.161
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
-
-!ENTRY org.eclipse.jface.text 2 0 2023-01-27 21:34:57.161
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:35:34.134
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:35:34.137
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:36:18.293
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:36:18.297
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:37:42.537
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:37:42.540
-!MESSAGE classpath=28 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:37:42.542
-!MESSAGE buffering callback sts4.classpath.BepcayXt MetroSystemProjectWithSpring false 28
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:37:42.542
-!MESSAGE executing callback sts4.classpath.BepcayXt 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:37:42.561
-!MESSAGE executing callback sts4.classpath.BepcayXt SUCCESS [done]
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:37:42.970
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:37:42.973
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:41:10.486
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:41:10.490
-!MESSAGE classpath=28 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:41:10.492
-!MESSAGE buffering callback sts4.classpath.BepcayXt MetroSystemProjectWithSpring false 28
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:41:10.493
-!MESSAGE executing callback sts4.classpath.BepcayXt 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 21:41:10.504
-!MESSAGE executing callback sts4.classpath.BepcayXt SUCCESS [done]
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:42:30.743
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:42:30.745
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:42:58.051
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 21:42:58.054
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:12:41.666
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:12:41.668
-!MESSAGE classpath=28 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:12:41.669
-!MESSAGE buffering callback sts4.classpath.BepcayXt MetroSystemProjectWithSpring false 28
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:12:41.669
-!MESSAGE executing callback sts4.classpath.BepcayXt 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:12:41.679
-!MESSAGE executing callback sts4.classpath.BepcayXt SUCCESS [done]
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:12:44.926
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:12:44.930
-!MESSAGE classpath=28 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:12:44.931
-!MESSAGE buffering callback sts4.classpath.BepcayXt MetroSystemProjectWithSpring false 28
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:12:44.931
-!MESSAGE executing callback sts4.classpath.BepcayXt 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:12:44.940
-!MESSAGE executing callback sts4.classpath.BepcayXt SUCCESS [done]
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:12:52.570
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:12:52.577
-!MESSAGE classpath=28 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:12:52.578
-!MESSAGE buffering callback sts4.classpath.BepcayXt MetroSystemProjectWithSpring false 28
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:12:52.579
-!MESSAGE executing callback sts4.classpath.BepcayXt 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:12:52.586
-!MESSAGE executing callback sts4.classpath.BepcayXt SUCCESS [done]
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:13:09.101
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:13:09.103
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:16:23.716
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:16:23.719
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:17:36.455
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:17:36.457
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:17:36.496
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:17:36.498
-!MESSAGE classpath=24 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:17:36.499
-!MESSAGE buffering callback sts4.classpath.BepcayXt MetroSystemProjectWithSpring false 24
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:17:36.500
-!MESSAGE executing callback sts4.classpath.BepcayXt 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:17:36.508
-!MESSAGE executing callback sts4.classpath.BepcayXt SUCCESS [done]
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:17:38.199
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:17:38.202
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:17:58.486
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:17:58.488
-!MESSAGE classpath=24 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:17:58.490
-!MESSAGE buffering callback sts4.classpath.BepcayXt MetroSystemProjectWithSpring false 24
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:17:58.491
-!MESSAGE executing callback sts4.classpath.BepcayXt 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:17:58.502
-!MESSAGE executing callback sts4.classpath.BepcayXt SUCCESS [done]
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:17:59.132
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:17:59.133
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:20:15.394
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:20:15.395
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:20:15.443
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:20:15.445
-!MESSAGE classpath=28 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:20:15.446
-!MESSAGE buffering callback sts4.classpath.BepcayXt MetroSystemProjectWithSpring false 28
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:20:15.447
-!MESSAGE executing callback sts4.classpath.BepcayXt 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:20:15.456
-!MESSAGE executing callback sts4.classpath.BepcayXt SUCCESS [done]
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:20:16.704
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:20:16.706
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:20:27.756
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:20:27.759
-!MESSAGE classpath=28 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:20:27.761
-!MESSAGE buffering callback sts4.classpath.BepcayXt MetroSystemProjectWithSpring false 28
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:20:27.761
-!MESSAGE executing callback sts4.classpath.BepcayXt 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:20:27.785
-!MESSAGE executing callback sts4.classpath.BepcayXt SUCCESS [done]
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:20:28.407
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:20:28.408
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.egit.core 4 0 2023-01-27 22:20:28.423
-!MESSAGE Failed finding RepositoryMapping
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2023-01-28 18:15:00.300
+!MESSAGE Internal Error
 !STACK 1
-org.eclipse.core.internal.resources.ResourceException(/MetroSystemProjectWithSpring/target/classes/META-INF/maven)[369]: java.lang.Exception: Resource '/MetroSystemProjectWithSpring/target/classes/META-INF/maven' is not local.
-	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
-	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
-	at org.eclipse.core.internal.resources.Resource.checkLocal(Resource.java:342)
-	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:211)
-	at org.eclipse.core.internal.resources.Resource.getSessionProperty(Resource.java:1177)
-	at org.eclipse.egit.core.project.GitProjectData.getRepositoryMapping(GitProjectData.java:543)
-	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:360)
-	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
-	at org.eclipse.egit.core.internal.util.ResourceUtil.getRepository(ResourceUtil.java:709)
-	at org.eclipse.egit.ui.internal.resources.ResourceStateFactory.getIndexDiffDataOrNull(ResourceStateFactory.java:103)
-	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:192)
-	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:170)
-	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
-	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1510)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:118)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: Could not move '/MetroSystemProjectWithSpringJDBC'.
+org.eclipse.core.runtime.CoreException: Could not move: D:\Java_Project\MetroSystemProjectWithSpringJDBC.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:392)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:395)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:818)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:766)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1090)
+	at org.eclipse.egit.core.GitMoveDeleteHook.moveProjectHelperMoveOnlyProject(GitMoveDeleteHook.java:395)
+	at org.eclipse.egit.core.GitMoveDeleteHook.moveProject(GitMoveDeleteHook.java:338)
+	at org.eclipse.team.internal.core.MoveDeleteManager.moveProject(MoveDeleteManager.java:104)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:1830)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1498)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:118)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:142)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:388)
+	... 21 more
+!SUBENTRY 1 org.eclipse.core.resources 1 4 2023-01-28 18:15:00.300
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 2 org.eclipse.core.resources 1 4 2023-01-28 18:15:00.300
+!MESSAGE Could not move '/MetroSystemProjectWithSpringJDBC'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not move: D:\Java_Project\MetroSystemProjectWithSpringJDBC.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:392)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:395)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:818)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:766)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1090)
+	at org.eclipse.egit.core.GitMoveDeleteHook.moveProjectHelperMoveOnlyProject(GitMoveDeleteHook.java:395)
+	at org.eclipse.egit.core.GitMoveDeleteHook.moveProject(GitMoveDeleteHook.java:338)
+	at org.eclipse.team.internal.core.MoveDeleteManager.moveProject(MoveDeleteManager.java:104)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:1830)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1498)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:118)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:142)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:388)
+	... 21 more
+!SUBENTRY 3 org.eclipse.core.filesystem 4 272 2023-01-28 18:15:00.300
+!MESSAGE Could not move: D:\Java_Project\MetroSystemProjectWithSpringJDBC.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:142)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:388)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:395)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:818)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:766)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1090)
+	at org.eclipse.egit.core.GitMoveDeleteHook.moveProjectHelperMoveOnlyProject(GitMoveDeleteHook.java:395)
+	at org.eclipse.egit.core.GitMoveDeleteHook.moveProject(GitMoveDeleteHook.java:338)
+	at org.eclipse.team.internal.core.MoveDeleteManager.moveProject(MoveDeleteManager.java:104)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:1830)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1498)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:118)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: Could not delete: D:\Java_Project\MetroSystemProjectWithSpringJDBC.
+java.nio.file.FileSystemException: D:\Java_Project\MetroSystemProjectWithSpringJDBC: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:274)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1185)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:223)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:140)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:388)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:395)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:818)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:766)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1090)
+	at org.eclipse.egit.core.GitMoveDeleteHook.moveProjectHelperMoveOnlyProject(GitMoveDeleteHook.java:395)
+	at org.eclipse.egit.core.GitMoveDeleteHook.moveProject(GitMoveDeleteHook.java:338)
+	at org.eclipse.team.internal.core.MoveDeleteManager.moveProject(MoveDeleteManager.java:104)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:1830)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1498)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:118)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2023-01-28 18:15:00.300
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2023-01-28 18:15:00.300
+!MESSAGE Could not delete: D:\Java_Project\MetroSystemProjectWithSpringJDBC.
+!STACK 0
+java.nio.file.FileSystemException: D:\Java_Project\MetroSystemProjectWithSpringJDBC: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:274)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1185)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:223)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:140)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:388)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:395)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:818)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:766)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1090)
+	at org.eclipse.egit.core.GitMoveDeleteHook.moveProjectHelperMoveOnlyProject(GitMoveDeleteHook.java:395)
+	at org.eclipse.egit.core.GitMoveDeleteHook.moveProject(GitMoveDeleteHook.java:338)
+	at org.eclipse.team.internal.core.MoveDeleteManager.moveProject(MoveDeleteManager.java:104)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:1830)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1498)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:118)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-28 18:15:05.104
+!MESSAGE Launch configuration MetroProjectClient (2) references non-existing project MetroSystemProjectWithSpringJDBC.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration MetroProjectClient (2) references non-existing project MetroSystemProjectWithSpringJDBC.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1718)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
-	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
-	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
-	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:521)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:409)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-!SUBENTRY 1 org.eclipse.core.resources 4 369 2023-01-27 22:20:28.423
-!MESSAGE Resource '/MetroSystemProjectWithSpring/target/classes/META-INF/maven' is not local.
-!STACK 0
-java.lang.Exception: Resource '/MetroSystemProjectWithSpring/target/classes/META-INF/maven' is not local.
-	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
-	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
-	at org.eclipse.core.internal.resources.Resource.checkLocal(Resource.java:342)
-	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:211)
-	at org.eclipse.core.internal.resources.Resource.getSessionProperty(Resource.java:1177)
-	at org.eclipse.egit.core.project.GitProjectData.getRepositoryMapping(GitProjectData.java:543)
-	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:360)
-	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
-	at org.eclipse.egit.core.internal.util.ResourceUtil.getRepository(ResourceUtil.java:709)
-	at org.eclipse.egit.ui.internal.resources.ResourceStateFactory.getIndexDiffDataOrNull(ResourceStateFactory.java:103)
-	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:192)
-	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:170)
-	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
-	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2023-01-28 18:15:05.104
+!MESSAGE Launch configuration MetroProjectClient (2) references non-existing project MetroSystemProjectWithSpringJDBC.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-28 18:15:05.104
+!MESSAGE Launch configuration MetroProjectClient (2) references non-existing project MetroSystemProjectWithSpringJDBC.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration MetroProjectClient (2) references non-existing project MetroSystemProjectWithSpringJDBC.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1718)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
-	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
-	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
-	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:521)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:409)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2023-01-28 18:15:05.104
+!MESSAGE Launch configuration MetroProjectClient (2) references non-existing project MetroSystemProjectWithSpringJDBC.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:20:53.195
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:20:53.197
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:20:53.238
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:20:53.240
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.jst.j2ee 4 0 2023-01-27 22:20:55.004
-!MESSAGE FrameworkEvent ERROR
-!STACK 0
-org.osgi.framework.BundleException: Exception in org.eclipse.jst.j2ee.internal.plugin.J2EEPlugin.stop() of bundle org.eclipse.jst.j2ee.
-	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:891)
-	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1025)
-	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:370)
-	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
-	at org.eclipse.osgi.container.Module.stop(Module.java:521)
-	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1886)
-	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1761)
-	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
-	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:202)
-	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
-	at org.eclipse.osgi.container.Module.stop(Module.java:521)
-	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
-	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:220)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: java.lang.NoSuchMethodError: 'org.eclipse.core.runtime.jobs.IJobManager org.eclipse.core.runtime.Platform.getJobManager()'
-	at org.eclipse.jst.j2ee.internal.plugin.J2EEPlugin.stop(J2EEPlugin.java:548)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:871)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:863)
-	... 13 more
-Root exception:
-java.lang.NoSuchMethodError: 'org.eclipse.core.runtime.jobs.IJobManager org.eclipse.core.runtime.Platform.getJobManager()'
-	at org.eclipse.jst.j2ee.internal.plugin.J2EEPlugin.stop(J2EEPlugin.java:548)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:871)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:863)
-	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1025)
-	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:370)
-	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
-	at org.eclipse.osgi.container.Module.stop(Module.java:521)
-	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1886)
-	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1761)
-	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
-	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:202)
-	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
-	at org.eclipse.osgi.container.Module.stop(Module.java:521)
-	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
-	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:220)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-!SESSION 2023-01-27 22:20:56.316 -----------------------------------------------
-eclipse.buildId=4.18.0.I20201202-1800
-java.version=15.0.1
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
-Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data file:/D:/Java_Project/ -product org.eclipse.epp.package.java.product
-
-!ENTRY org.eclipse.jface 2 0 2023-01-27 22:21:03.368
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-27 22:21:03.368
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@55448710,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39240aa3,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-27 22:21:03.368
-!MESSAGE A conflict occurred for ALT+SHIFT+X R:
-Binding(ALT+SHIFT+X R,
-	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
-		Run RAP Application,
-		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@13c36d48,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+X R,
-	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
-		Run the current selection on a server,
-		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e93e396,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-27 22:21:03.368
-!MESSAGE A conflict occurred for ALT+SHIFT+D R:
-Binding(ALT+SHIFT+D R,
-	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
-		Debug RAP Application,
-		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f1e8753,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+D R,
-	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
-		Debug the current selection on a server,
-		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1676e501,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-
-!ENTRY org.eclipse.jface.text 2 0 2023-01-27 22:21:07.727
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
-
-!ENTRY org.eclipse.jface.text 2 0 2023-01-27 22:21:07.728
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:21:12.545
-!MESSAGE Entering DelegatingStreamConnectionProvider()
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:21:12.546
-!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@476bdad6[org.springframework.tooling.boot.ls:1.33.0.202204250653(id=700)]
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:21:12.549
-!MESSAGE SpringBootLanguageServer exists!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:21:12.611
-!MESSAGE Instantiating ReusableClasspathListenerHandler
-
-!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2023-01-27 22:21:13.409
-!MESSAGE No search provider was registered. Tasks search is not available.
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:21:20.612
-!MESSAGE Boot LS startup time from start to initialized: 8045ms
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:21:21.118
-!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.wbBxFVgDisBatched = true
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:21:21.126
-!MESSAGE Setting up ClasspathListenerManager
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:21:21.130
-!MESSAGE Scheduling initial event for all projects ...
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:21:21.132
-!MESSAGE Scheduling initial event for all projects DONE
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:21:21.133
-!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.wbBxFVgD => OK
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:21:21.133
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:21:21.151
-!MESSAGE classpath=28 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:21:21.154
-!MESSAGE buffering callback sts4.classpath.wbBxFVgD MetroSystemProjectWithSpring false 28
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:21:21.155
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:21:21.159
-!MESSAGE classpath=22 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:21:21.162
-!MESSAGE buffering callback sts4.classpath.wbBxFVgD MetroSystemProjectLombokJDBC false 22
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:21:21.162
-!MESSAGE executing callback sts4.classpath.wbBxFVgD 2 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:21:22.080
-!MESSAGE executing callback sts4.classpath.wbBxFVgD SUCCESS [done]
-
-!ENTRY org.eclipse.egit.ui 2 0 2023-01-27 22:21:32.095
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\manav'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:23:32.184
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:23:32.186
-!MESSAGE classpath=19 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:23:32.187
-!MESSAGE buffering callback sts4.classpath.wbBxFVgD MetroSystemProjectWithSpringJDBC false 19
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:23:32.188
-!MESSAGE executing callback sts4.classpath.wbBxFVgD 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:23:32.199
-!MESSAGE executing callback sts4.classpath.wbBxFVgD SUCCESS [done]
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:23:34.305
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:23:34.308
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:23:34.401
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:23:34.404
-!MESSAGE classpath=28 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:23:34.405
-!MESSAGE buffering callback sts4.classpath.wbBxFVgD MetroSystemProjectWithSpringJDBC false 28
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:23:34.407
-!MESSAGE executing callback sts4.classpath.wbBxFVgD 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:23:34.425
-!MESSAGE executing callback sts4.classpath.wbBxFVgD SUCCESS [done]
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:23:35.835
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:23:35.838
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:24.940
-!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.wbBxFVgD
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:24.941
-!MESSAGE unsubscribing from classpath changes: sts4.classpath.wbBxFVgD
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:24.942
-!MESSAGE subsribers = {}
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:24.942
-!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.wbBxFVgD => OK
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:55:45.586
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:55:45.589
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:55:47.176
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:55:47.178
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:49.236
-!MESSAGE Entering DelegatingStreamConnectionProvider()
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:49.236
-!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@476bdad6[org.springframework.tooling.boot.ls:1.33.0.202204250653(id=700)]
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:49.237
-!MESSAGE SpringBootLanguageServer exists!
-
-!ENTRY org.eclipse.lsp4e 4 0 2023-01-27 22:55:50.244
-!MESSAGE 
-!STACK 0
-java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1950)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
-	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:556)
-	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:545)
-	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:884)
-	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$6(LanguageServiceAccessor.java:361)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:176)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
-	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1694)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
-	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:362)
-	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:588)
-	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:60)
-	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:88)
-	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:189)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
-	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:195)
-	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:140)
-	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:129)
-	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1313)
-	at org.eclipse.jface.text.source.SourceViewer.ensureCodeMiningManagerInstalled(SourceViewer.java:1301)
-	at org.eclipse.jface.text.source.SourceViewer.setCodeMiningAnnotationPainter(SourceViewer.java:1320)
-	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.showAnnotations(SourceViewerDecorationSupport.java:830)
-	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.updateTextDecorations(SourceViewerDecorationSupport.java:301)
-	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.install(SourceViewerDecorationSupport.java:269)
-	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(AbstractDecoratedTextEditor.java:456)
-	at org.eclipse.wst.sse.ui.StructuredTextEditor.createPartControl(StructuredTextEditor.java:1532)
-	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:227)
-	at org.eclipse.ui.forms.editor.FormEditor.addPage(FormEditor.java:331)
-	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:203)
-	at org.eclipse.ui.forms.editor.FormEditor.addPage(FormEditor.java:313)
-	at org.springframework.ide.eclipse.config.ui.editors.AbstractConfigEditor.createSourcePage(AbstractConfigEditor.java:358)
-	at org.springframework.ide.eclipse.config.ui.editors.AbstractConfigEditor.addPages(AbstractConfigEditor.java:254)
-	at org.eclipse.ui.forms.editor.FormEditor.createPages(FormEditor.java:143)
-	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:333)
-	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
-	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
-	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:999)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:964)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:405)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:332)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
-	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
-	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
-	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
-	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:999)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-01-28 18:15:05.112
+!MESSAGE Launch configuration MetroProjectClient (2) references non-existing project MetroSystemProjectWithSpringJDBC.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration MetroProjectClient (2) references non-existing project MetroSystemProjectWithSpringJDBC.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1718)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
-	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:104)
-	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
-	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
-	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
-	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4742)
-	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:219)
-	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
-	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
-	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
-	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
-	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
-	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
-	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
-	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
-	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
-	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
-	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
-	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
-	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
-	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
-	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:659)
-	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:623)
-	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:786)
-	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:400)
-	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1262)
-	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3195)
-	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3100)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
-	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3098)
-	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3068)
-	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3059)
-	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:569)
-	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:524)
-	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:363)
-	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:170)
-	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:283)
-	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:249)
-	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
-	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
-	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:366)
-	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$3.open(PackageExplorerPart.java:545)
-	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
-	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:802)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
-	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:799)
-	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1118)
-	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:275)
-	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:270)
-	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:310)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2132)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:374)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:257)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:227)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:185)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2023-01-28 18:15:05.112
+!MESSAGE Launch configuration MetroProjectClient (2) references non-existing project MetroSystemProjectWithSpringJDBC.
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:51.121
-!MESSAGE Boot LS startup time from start to initialized: 1884ms
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-28 18:15:05.595
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:51.237
-!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ywBrBarnisBatched = true
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-28 18:15:05.596
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:51.238
-!MESSAGE Setting up ClasspathListenerManager
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:51.238
-!MESSAGE Scheduling initial event for all projects ...
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:51.239
-!MESSAGE Scheduling initial event for all projects DONE
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:51.239
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-28 18:15:05.686
 !MESSAGE exists = true open = true => deleted = false
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:51.239
-!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ywBrBarn => OK
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:51.242
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-28 18:15:05.688
 !MESSAGE classpath=30 entries
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:51.244
-!MESSAGE buffering callback sts4.classpath.ywBrBarn MetroSystemProjectWithSpringJDBC false 30
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-28 18:15:05.689
+!MESSAGE buffering callback sts4.classpath.zuZRljoJ 3.0_MetroSystemProjectWithSpringJDBC false 30
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:51.245
-!MESSAGE exists = true open = true => deleted = false
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-28 18:15:05.689
+!MESSAGE executing callback sts4.classpath.zuZRljoJ 1 batched events
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:51.249
-!MESSAGE classpath=22 entries
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-28 18:15:05.698
+!MESSAGE executing callback sts4.classpath.zuZRljoJ SUCCESS [done]
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:51.252
-!MESSAGE buffering callback sts4.classpath.ywBrBarn MetroSystemProjectLombokJDBC false 22
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:51.253
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:51.256
-!MESSAGE classpath=28 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:51.258
-!MESSAGE buffering callback sts4.classpath.ywBrBarn MetroSystemProjectWithSpring false 28
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:51.258
-!MESSAGE executing callback sts4.classpath.ywBrBarn 3 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:55:51.626
-!MESSAGE executing callback sts4.classpath.ywBrBarn SUCCESS [done]
-
-!ENTRY org.eclipse.jface.text 2 0 2023-01-27 22:55:57.141
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
-
-!ENTRY org.eclipse.jface.text 2 0 2023-01-27 22:55:57.141
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:56:12.822
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:56:12.824
-!MESSAGE classpath=30 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:56:12.826
-!MESSAGE buffering callback sts4.classpath.ywBrBarn MetroSystemProjectWithSpringJDBC false 30
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:56:12.826
-!MESSAGE executing callback sts4.classpath.ywBrBarn 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:56:12.834
-!MESSAGE executing callback sts4.classpath.ywBrBarn SUCCESS [done]
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:56:38.541
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:56:38.543
-!MESSAGE classpath=30 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:56:38.545
-!MESSAGE buffering callback sts4.classpath.ywBrBarn MetroSystemProjectWithSpringJDBC false 30
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:56:38.545
-!MESSAGE executing callback sts4.classpath.ywBrBarn 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:56:38.555
-!MESSAGE executing callback sts4.classpath.ywBrBarn SUCCESS [done]
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:56:39.101
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-28 18:15:06.890
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:56:39.103
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:57:01.912
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:57:01.915
-!MESSAGE classpath=30 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:57:01.916
-!MESSAGE buffering callback sts4.classpath.ywBrBarn MetroSystemProjectWithSpringJDBC false 30
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:57:01.917
-!MESSAGE executing callback sts4.classpath.ywBrBarn 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:57:01.929
-!MESSAGE executing callback sts4.classpath.ywBrBarn SUCCESS [done]
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:57:17.224
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:57:17.228
-!MESSAGE classpath=30 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:57:17.233
-!MESSAGE buffering callback sts4.classpath.ywBrBarn MetroSystemProjectWithSpringJDBC false 30
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:57:17.233
-!MESSAGE executing callback sts4.classpath.ywBrBarn 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:57:17.240
-!MESSAGE executing callback sts4.classpath.ywBrBarn SUCCESS [done]
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:57:43.241
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:57:43.243
-!MESSAGE classpath=30 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:57:43.245
-!MESSAGE buffering callback sts4.classpath.ywBrBarn MetroSystemProjectWithSpringJDBC false 30
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:57:43.248
-!MESSAGE executing callback sts4.classpath.ywBrBarn 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-27 22:57:43.255
-!MESSAGE executing callback sts4.classpath.ywBrBarn SUCCESS [done]
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:59:54.793
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 22:59:54.795
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.jface.text 2 0 2023-01-27 23:00:28.044
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
-
-!ENTRY org.eclipse.jface.text 2 0 2023-01-27 23:00:28.045
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 23:03:35.985
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 23:03:35.988
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 23:03:39.746
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 23:03:39.753
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 23:03:42.829
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 23:03:42.835
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 23:04:31.512
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 23:04:31.513
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 23:10:21.806
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 23:10:21.808
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 23:15:34.305
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 23:15:34.308
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 23:17:52.386
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 23:17:52.388
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 23:25:56.074
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-27 23:25:56.079
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-28 18:15:06.892
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

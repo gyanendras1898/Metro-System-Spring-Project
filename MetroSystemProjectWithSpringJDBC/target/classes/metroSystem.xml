@@ -29,6 +29,7 @@
 	<bean id="journeyService"
 		class="com.gyan.service.JourneyServiceImpl">
 		<property name="journeyDao" ref="journeyDao"></property>
+		<property name="cardService" ref="cardService"></property>
 	</bean>
 	<bean id="stationService"
 		class="com.gyan.service.StationServiceImpl">
