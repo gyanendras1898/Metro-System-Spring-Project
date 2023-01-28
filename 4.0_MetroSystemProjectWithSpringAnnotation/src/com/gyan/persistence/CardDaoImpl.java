@@ -1,8 +1,6 @@
 package com.gyan.persistence;
 
 import java.sql.Connection;
-
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -16,9 +14,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.gyan.beans.Card;
-import com.gyan.beans.Station;
-
-import lombok.Setter;
 
 @Repository
 public class CardDaoImpl implements CardDao {
@@ -26,7 +21,7 @@ public class CardDaoImpl implements CardDao {
 	private DataSource dataSource;
 
 	@Override
-	public int addCard(double balance) throws ClassNotFoundException, SQLException {
+	public int addCard(double balance) throws SQLException{
 		Connection connection=dataSource.getConnection();
 		String query = "insert into cards (balance) values (?);";
 		
@@ -43,7 +38,7 @@ public class CardDaoImpl implements CardDao {
 	}
 
 	@Override
-	public double viewBalance(int cardId) throws ClassNotFoundException, SQLException {
+	public double viewBalance(int cardId) throws SQLException {
 		Connection connection=dataSource.getConnection();
 		String query = "select balance from cards where id=?";
 		
@@ -58,7 +53,7 @@ public class CardDaoImpl implements CardDao {
 	}
 	
 	@Override
-	public boolean addBalance(int cardId, double balance) throws ClassNotFoundException, SQLException {
+	public boolean addBalance(int cardId, double balance) throws SQLException {
 		Connection connection=dataSource.getConnection();
 		String query = "update cards set balance = ? where id=?";
 		
@@ -73,7 +68,7 @@ public class CardDaoImpl implements CardDao {
 
 
 	@Override
-	public boolean isCardPresent(int cardId) throws SQLException, ClassNotFoundException {
+	public boolean isCardPresent(int cardId) throws SQLException{
 		Connection connection=dataSource.getConnection();
 		String query = "SELECT EXISTS (SELECT * FROM CARDS WHERE ID=?)";
 		
@@ -88,7 +83,7 @@ public class CardDaoImpl implements CardDao {
 	}
 
 	@Override
-	public List<Card> allCard()throws SQLException, ClassNotFoundException {
+	public List<Card> allCard()throws SQLException {
 		List<Card> cards = new ArrayList<>();
 		Connection connection=dataSource.getConnection();
 		String query = "select * from cards";
@@ -107,7 +102,7 @@ public class CardDaoImpl implements CardDao {
 	}
 
 	@Override
-	public int lastCardAdded() throws ClassNotFoundException, SQLException {
+	public int lastCardAdded() throws SQLException {
 		Connection connection=dataSource.getConnection();
 		Statement statement = connection.createStatement();
 		

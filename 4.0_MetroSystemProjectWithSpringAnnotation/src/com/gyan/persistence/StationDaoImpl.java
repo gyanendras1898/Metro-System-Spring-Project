@@ -1,7 +1,6 @@
 package com.gyan.persistence;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -15,14 +14,13 @@ import org.springframework.stereotype.Repository;
 
 import com.gyan.beans.Station;
 
-import lombok.Setter;
 @Repository
 public class StationDaoImpl implements StationDao {
 	@Autowired
 	private DataSource dataSource;
 	
 	@Override
-	public List<Station> getStations() throws ClassNotFoundException, SQLException {
+	public List<Station> getStations() throws SQLException {
 		List<Station> stations = new ArrayList<>();
 		Connection connection=dataSource.getConnection();
 		String query = "select * from stations";

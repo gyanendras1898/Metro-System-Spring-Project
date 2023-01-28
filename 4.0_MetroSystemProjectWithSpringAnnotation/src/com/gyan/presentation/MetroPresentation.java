@@ -5,7 +5,7 @@ import java.sql.SQLException;
 public interface MetroPresentation {
 	
 	void showMenu();
-	void performMenu(int choice) throws ClassNotFoundException, SQLException;
-	int registerNewUser() throws ClassNotFoundException, SQLException;
+	void performMenu(int choice) throws SQLException;
+	void registerNewUser() throws SQLException;
 
 }

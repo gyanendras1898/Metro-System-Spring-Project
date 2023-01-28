@@ -15,7 +15,7 @@ public class StationServiceImpl implements StationService {
 	StationDao stationDao;
 
 	@Override
-	public List<Station> getStations() throws ClassNotFoundException, SQLException {
+	public List<Station> getStations() throws SQLException {
 		
 		return stationDao.getStations();
 	}
