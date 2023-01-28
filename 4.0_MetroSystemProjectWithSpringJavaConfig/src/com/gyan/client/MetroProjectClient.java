@@ -21,8 +21,9 @@ public class MetroProjectClient {
 		
 		MetroPresentation metroPresentation = (MetroPresentation) springContainer.getBean("metroPresentation");
 		UserPresentation userPresentation = (UserPresentation) springContainer.getBean("userPresentation");
-
-		int choiceInt = 0;
+		
+		int choices = 3;
+		int userChoice = 0;
 
 		try(Scanner scanner = new Scanner(System.in)) {
 			do {
@@ -30,15 +31,15 @@ public class MetroProjectClient {
 				System.out.println("Enter Choice : ");
 				String choice = scanner.next();
 				if ((int) choice.charAt(0) - 48 >= 0 && (int) choice.charAt(0) - 48 <= 9) {
-					choiceInt = Integer.parseInt(choice);
-					if (choiceInt == 2)
+					userChoice = Integer.parseInt(choice);
+					if (userChoice == 2)
 						userPresentation.userLogin();
 					else
-						metroPresentation.performMenu(choiceInt);
+						metroPresentation.performMenu(userChoice);
 					System.out.println();
 				} else
 					throw (InvalidInputException)springContainer.getBean("invalidInputException");
-			} while (choiceInt != 3);
+			} while (userChoice != choices);
 		} catch (InvalidInputException exception) {
 			System.out.println(exception.getMessage());
 		} catch (NumberFormatException | SQLException e) {

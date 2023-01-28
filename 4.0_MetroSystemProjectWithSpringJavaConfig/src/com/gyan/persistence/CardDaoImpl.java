@@ -93,7 +93,7 @@ public class CardDaoImpl implements CardDao {
 		ResultSet rs=preparedStatement.executeQuery();
 		
 		while(rs.next()) {
-			int id = rs.getInt("number");
+			int id = rs.getInt("id");
 			double balance = rs.getDouble("balance");
 			cards.add(new Card(id,balance));
 		}

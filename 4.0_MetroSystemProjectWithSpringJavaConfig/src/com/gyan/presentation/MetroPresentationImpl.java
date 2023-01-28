@@ -8,6 +8,7 @@ import java.util.Scanner;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import com.gyan.beans.Card;
 import com.gyan.beans.Station;
 import com.gyan.service.CardService;
 import com.gyan.service.CardServiceImpl;
@@ -22,14 +23,15 @@ import lombok.Setter;
 public class MetroPresentationImpl implements MetroPresentation {
 	@Autowired
 	private CardService cardService;
-	
+
 	Scanner scanner = new Scanner(System.in);
 
 	@Override
 	public void showMenu() {
 		System.out.println("1. Register new User");
 		System.out.println("2. Log-in");
-		System.out.println("3. Exit");
+		System.out.println("3. Show all users");
+		System.out.println("4. Exit");
 
 	}
 
@@ -56,6 +58,14 @@ public class MetroPresentationImpl implements MetroPresentation {
 	}
 
 	@Override
+	public void showAllUserDetails() throws SQLException {
+		List<Card> cards = cardService.viewCardId();
+
+		for (Card card : cards)
+			System.out.println(card);
+	}
+
+	@Override
 	public void performMenu(int choice) throws SQLException {
 		switch (choice) {
 		// register new user
@@ -69,8 +79,12 @@ public class MetroPresentationImpl implements MetroPresentation {
 			 */
 			break;
 
-		// exit
 		case 3:
+			showAllUserDetails();
+			break;
+
+		// exit
+		case 4:
 			System.out.println("Thanks for using our System, kindly visit us again!");
 			break;
 		default:
