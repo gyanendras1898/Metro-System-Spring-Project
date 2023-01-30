@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="3.0_MetroSystemProjectWithSpringJDBC"/>
+<aop-project name="3.9_MetroSystemProjectWithSpringAnnotation"/>
+<aop-project name="3.8_MetroSystemProjectWithSpringAutoWire"/>
+<aop-project name="4.0_MetroSystemProjectWithSpringJavaConfig"/>
+<aop-project name="3.5_MetroSystemProjectWithSpringPandCNameSpace"/>
 <aop-project name="2.0_MetroSystemProjectWithSpring"/>
 </aop-reference-model>
